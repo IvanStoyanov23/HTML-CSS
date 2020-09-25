@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(192, 169, 145);
+    color:white;
+    font-family: "Lato", sans-serif;
+}
+
+nav, header{
+    margin: 2%;
+
+}
+img{
+    width: 30%;
+}
+
+nav ul {
+    float: right;
+    padding: 0;
+    margin: -30px 0 0;
+    text-transform: capitalize;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+nav ul li:hover {
+    border: 1px solid rgb(134, 114, 96);
+    border-radius: 30px;
+    background: rgb(134, 114, 96);
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 8%;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+.header-subtitle, .features-subtitle{
+    text-align: center;
+    margin: 3% 0;
+}
+
+header img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  width: 30%;
+}
+
+main .features{ 
+    background: url("images/potato-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+}
+
+main div h1{
+    text-align: center;
+    padding-top: 10%;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+main .features img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+main .buy-now{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgb(250, 250, 250);
+    color: black;
+}
+
+main .potato-types .potato{
+    display: inline-block;
+    width: 30%;
+    padding-top: 2%;
+    padding-right: 2%;
+    text-align: center;
+    border-right: 1px solid black;
+
+}
+
+main .potato-types .potato-title{
+    padding-bottom: 8%;
+    font-size: 200%;
+    font-weight: 100;
+}
+
+main .potato-types .potato-features .potato-description{
+    list-style-type: none;
+    padding-bottom: 5%;
+}
+
+main .btn-order{
+    background: none;
+    padding: 2% 4%;
+    margin-bottom: 4%;
+    border: 1px solid rgb(154, 205, 50);
+    border-radius: 30px;
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+main .btn-order:hover{
+    background-color: rgb(154, 205, 50);
+    color: white;
+}
+
+.potato-price{
+    padding-bottom: 5%;
+}
+
+footer p{
+text-align: center;
+padding: 1% 0;
+}

@@ -1,0 +1,90 @@
+@import url('https://fonts.google.com/selection?selection.family=Lato');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 14px "Lato", sans-serif;
+    background: url("images/dark-wood.jpg");
+    background-size: cover;
+    margin: 0 12%;
+}
+
+header{
+    background: url("images/header-page.jpg");
+    background-size: initial;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+header h1{
+    padding: 42px 2% 5% 0;
+}
+
+nav{
+    background: url("images/header-page.jpg");
+    margin: 1% 0;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.5% 2%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+main{
+    background: white;
+}
+
+img{
+    float: left;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1%;
+}
+
+article:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  article{
+    padding: 2%;
+    width: 74%;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  aside{
+    width: 20%;
+    float: right;
+    margin-top: -48%;
+    color: palevioletred;
+  }
+
+  aside h2{
+    padding-bottom: 10%;
+    font-size: 180%;
+  }
+
+  aside ul li {
+    display: block;
+    padding: 5%;
+    border-bottom: 1px solid rgba(216, 112, 147, 0.3);
+  }
+
+  aside ul li a{
+    color: palevioletred;
+    text-decoration: none;
+  }

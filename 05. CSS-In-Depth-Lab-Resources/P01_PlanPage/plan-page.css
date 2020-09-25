@@ -1,0 +1,58 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+body{
+    background: url("images/plan-page.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+section{
+    width: 80%;
+    margin: 77px auto;
+    text-align: center;
+}
+
+article{
+    background-color: rgb(38, 38, 38);
+    border: 5px solid rgb(66, 66, 66);
+    margin: 0 20px;
+    width: 27%;
+    display:inline-block;
+}
+
+article h1{
+    font-size: 24px;
+    padding: 7%;
+}
+
+article p{
+color: rgb(141, 141, 126);;
+}
+
+article .price{
+    color: rgb(39, 220, 196);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10%;
+}
+
+ul li{
+list-style-type: none;
+padding: 5px 0;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(39, 220, 196);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: grey;
+}
